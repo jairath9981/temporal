@@ -164,6 +164,13 @@
             <scope>compile</scope>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.1.1-jre</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -172,6 +179,12 @@
                 <groupId>com.google.protobuf</groupId>
                 <artifactId>protobuf-java</artifactId>
                 <version>3.21.12</version> <!-- or 3.19.x, avoid 4.x -->
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>30.1.1-jre</version>
             </dependency>
 
         </dependencies>

@@ -22,3 +22,7 @@ Run Mechanism: [Start the Temporal Server]
 Run app:
     TemporalApp
 
+While you TemporalApp.java
+ADD below config in VM args:
+-Dserver.port=8095
+
