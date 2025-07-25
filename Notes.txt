@@ -1,0 +1,24 @@
+Install temporal CLI:
+    brew install temporalio/tap/tctl
+
+To verify the installation:
+    tctl version
+
+Workflow -> orchestration
+
+
+Increase your understanding by:
+    git clone https://github.com/datmt/temporal-microservices-demo.git
+
+
+How to run:
+One time activity:
+    git clone https://github.com/temporalio/docker-compose.git
+
+Run Mechanism: [Start the Temporal Server]
+    cd docker-compose
+    docker-compose up
+
+Run app:
+    TemporalApp
+
