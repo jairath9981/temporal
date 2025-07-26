@@ -4,7 +4,7 @@ Install temporal CLI:
 To verify the installation:
     tctl version
 
-Workflow -> orchestration
+Workflow [means] -> orchestration
 
 
 Increase your understanding by:
